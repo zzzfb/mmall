@@ -7,6 +7,7 @@
   <welcome-file-list>
     <welcome-file>form.html</welcome-file>
   </welcome-file-list>
+
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
     <servlet-class>com.mmall.servlet.HelloServlet</servlet-class>
@@ -15,6 +16,7 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/a</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>beer</servlet-name>
     <servlet-class>com.mmall.servlet.BeerServlet</servlet-class>
@@ -23,6 +25,15 @@
       <servlet-name>beer</servlet-name>
       <url-pattern>/selectBeer.do</url-pattern>
   </servlet-mapping>
+
+    <servlet>
+        <servlet-name>beer02</servlet-name>
+        <servlet-class>com.mmall.servlet.BeerServlet02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>beer02</servlet-name>
+        <url-pattern>/selectBeer.do02</url-pattern>
+    </servlet-mapping>
 </web-app>
 
 
