@@ -34,6 +34,15 @@
         <servlet-name>beer02</servlet-name>
         <url-pattern>/selectBeer.do02</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>beer03</servlet-name>
+        <servlet-class>com.mmall.servlet.BeerServlet03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>beer03</servlet-name>
+        <url-pattern>/selectBeer.do03</url-pattern>
+    </servlet-mapping>
 </web-app>
 
 
